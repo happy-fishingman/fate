@@ -19,7 +19,7 @@ export default function PageViewsBarChart() {
     <Card variant="outlined" sx={{ width: '100%' }}>
       <CardContent>
         <Typography component="h2" variant="subtitle2" gutterBottom>
-          Page views and downloads
+          数据统计
         </Typography>
         <Stack sx={{ justifyContent: 'space-between' }}>
           <Stack
@@ -31,12 +31,12 @@ export default function PageViewsBarChart() {
             }}
           >
             <Typography variant="h4" component="p">
-              1.3M
+              14k
             </Typography>
-            <Chip size="small" color="error" label="-8%" />
+            {/* <Chip size="small" color="error" label="-8%" /> */}
           </Stack>
           <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-            Page views and downloads for the last 6 months
+            各保险定价区间人数统计
           </Typography>
         </Stack>
         <BarChart
@@ -46,26 +46,26 @@ export default function PageViewsBarChart() {
             {
               scaleType: 'band',
               categoryGapRatio: 0.5,
-              data: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul'],
+              data: ['¥100', '¥120', '¥140', '¥160', '¥180', '¥200','¥220','¥240','¥260','¥280','¥300','¥300+'],
             },
           ]}
           series={[
             {
-              id: 'page-views',
-              label: 'Page views',
-              data: [2234, 3872, 2998, 4125, 3357, 2789, 2998],
+              id: 'Senior',
+              label: '老年',
+              data: [0, 0, 7868, 7456, 11814, 10532, 6952, 6828, 3698, 2617, 1995,7474],
               stack: 'A',
             },
             {
-              id: 'downloads',
-              label: 'Downloads',
-              data: [3098, 4215, 2384, 2101, 4752, 3593, 2384],
+              id: 'Middle-aged',
+              label: '中年',
+              data: [3344, 12995, 12208, 9571, 8289, 4691, 2819, 2162, 1343, 1003, 659,1829],
               stack: 'A',
             },
             {
-              id: 'conversions',
-              label: 'Conversions',
-              data: [4051, 2275, 3129, 4693, 3904, 2038, 2275],
+              id: 'Youth',
+              label: '青壮年',
+              data: [2661, 2759, 2012, 1173, 669, 407, 284, 176, 119, 61, 48,35,30,40],
               stack: 'A',
             },
           ]}
