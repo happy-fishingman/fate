@@ -5,8 +5,15 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
 import HandymanIcon from '@mui/icons-material/Handyman';
+import HandymanIcon from '@mui/icons-material/Handyman';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
+import Dialog from '@mui/material/Dialog';
+import DialogTitle from '@mui/material/DialogTitle';
+import DialogContent from '@mui/material/DialogContent';
+import DialogContentText from '@mui/material/DialogContentText';
+import DialogActions from '@mui/material/DialogActions';
+import CircularProgress from '@mui/material/CircularProgress';
 import Dialog from '@mui/material/Dialog';
 import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
@@ -59,6 +66,7 @@ export default function HighlightedCard() {
     <Card sx={{ height: '100%' }}>
       <CardContent>
         <HandymanIcon />
+        <HandymanIcon />
         <Typography
           component="h2"
           variant="subtitle2"
@@ -66,8 +74,10 @@ export default function HighlightedCard() {
           sx={{ fontWeight: '600' }}
         >
           模型训练
+          模型训练
         </Typography>
         <Typography sx={{ color: 'text.secondary', mb: '8px' }}>
+          点击按钮后，我们将根据您上传的训练数据和医院提供的就诊信息，开始模型训练。
           点击按钮后，我们将根据您上传的训练数据和医院提供的就诊信息，开始模型训练。
         </Typography>
         {/* <TextField id="outlined-basic" label="Outlined" variant="outlined" /> */}
@@ -78,9 +88,40 @@ export default function HighlightedCard() {
           endIcon={<ChevronRightRoundedIcon />}
           fullWidth={isSmallScreen}
           onClick={handleTrainClick}
+          onClick={handleTrainClick}
         >
           训练
+          训练
         </Button>
+
+        {/* 弹窗 */}
+        <Dialog
+          open={open}
+          onClose={handleCancel}
+        >
+          <DialogTitle>开始训练</DialogTitle>
+          <DialogContent>
+            <DialogContentText>
+              确定要开始模型训练吗？这可能需要一些时间。
+            </DialogContentText>
+          </DialogContent>
+          <DialogActions>
+            <Button onClick={handleCancel}>取消</Button>
+            <Button onClick={handleConfirm} autoFocus>
+              确认
+            </Button>
+          </DialogActions>
+        </Dialog>
+
+        {/* 训练进行中的加载指示器 */}
+        {loading && (
+          <div style={{ textAlign: 'center', marginTop: '16px' }}>
+            <CircularProgress />
+            <Typography variant="body2" sx={{ mt: 1 }}>
+              模型训练中，请稍候...
+            </Typography>
+          </div>
+        )}
 
         {/* 弹窗 */}
         <Dialog

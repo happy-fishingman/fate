@@ -124,7 +124,68 @@ export function renderAvatar(params) {
 //   },
 // ];
 
+// export const columns = [
+//   { field: 'pageTitle', headerName: 'Page Title', flex: 1.5, minWidth: 200 },
+//   {
+//     field: 'status',
+//     headerName: 'Status',
+//     flex: 0.5,
+//     minWidth: 80,
+//     renderCell: (params) => renderStatus(params.value),
+//   },
+//   {
+//     field: 'users',
+//     headerName: 'Users',
+//     headerAlign: 'right',
+//     align: 'right',
+//     flex: 1,
+//     minWidth: 80,
+//   },
+//   {
+//     field: 'eventCount',
+//     headerName: 'Event Count',
+//     headerAlign: 'right',
+//     align: 'right',
+//     flex: 1,
+//     minWidth: 100,
+//   },
+//   {
+//     field: 'viewsPerUser',
+//     headerName: 'Views per User',
+//     headerAlign: 'right',
+//     align: 'right',
+//     flex: 1,
+//     minWidth: 120,
+//   },
+//   {
+//     field: 'averageTime',
+//     headerName: 'Average Time',
+//     headerAlign: 'right',
+//     align: 'right',
+//     flex: 1,
+//     minWidth: 100,
+//   },
+//   {
+//     field: 'conversions',
+//     headerName: 'Daily Conversions',
+//     flex: 1,
+//     minWidth: 150,
+//     renderCell: renderSparklineCell,
+//   },
+// ];
+
 export const columns = [
+  { field: 'BeneID', headerName: 'BeneID', flex: 1, minWidth: 100 },
+  { field: 'Age', headerName: 'Age', flex: 1, minWidth: 100 },
+  { field: 'Gender', headerName: 'Gender', flex: 1, minWidth: 100 },
+  { field: 'Race', headerName: 'Race', flex: 1, minWidth: 100 },
+  { field: 'State', headerName: 'State', flex: 1, minWidth: 100 },
+  { field: 'County', headerName: 'County', flex: 1, minWidth: 100 },
+  { field: 'IPAnnualReimbursementAmt', headerName: 'IPAnnualReimbursementAmt', flex: 1, minWidth: 100 },
+  { field: 'IPAnnualDeductibleAmt', headerName: 'IPAnnualDeductibleAmt', flex: 1, minWidth: 100 },
+  { field: 'OPAnnualReimbursementAmt', headerName: 'OPAnnualReimbursementAmt', flex: 1, minWidth: 100 },
+  { field: 'OPAnnualDeductibleAmt', headerName: 'OPAnnualDeductibleAmt', flex: 1, minWidth: 100 },
+  { field: 'InsurancePrice', headerName: 'InsurancePrice', flex: 1, minWidth: 100 },
   { field: 'BeneID', headerName: 'BeneID', flex: 1, minWidth: 100 },
   { field: 'Age', headerName: 'Age', flex: 1, minWidth: 100 },
   { field: 'Gender', headerName: 'Gender', flex: 1, minWidth: 100 },
