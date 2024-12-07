@@ -5,7 +5,6 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import ChevronRightRoundedIcon from '@mui/icons-material/ChevronRightRounded';
 import HandymanIcon from '@mui/icons-material/Handyman';
-import HandymanIcon from '@mui/icons-material/Handyman';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import Dialog from '@mui/material/Dialog';
@@ -87,7 +86,6 @@ export default function HighlightedCard() {
           color="primary"
           endIcon={<ChevronRightRoundedIcon />}
           fullWidth={isSmallScreen}
-          onClick={handleTrainClick}
           onClick={handleTrainClick}
         >
           训练
