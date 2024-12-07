@@ -1,16 +1,13 @@
 import * as React from 'react';
-import type {} from '@mui/x-date-pickers/themeAugmentation';
-import type {} from '@mui/x-charts/themeAugmentation';
-import type {} from '@mui/x-data-grid/themeAugmentation';
-import type {} from '@mui/x-tree-view/themeAugmentation';
+
 import { alpha } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Box from '@mui/material/Box';
 import Stack from '@mui/material/Stack';
 import AppNavbar from './components/AppNavbar';
 import Header from './components/Header';
-import MainGrid from './components/MainGrid';
-import SideMenu from './components/SideMenu';
+import MainGrid from './components/MainGrid_hos2';
+import SideMenu_hos from './components/SideMenu_hos2';
 import AppTheme from '../shared-theme/AppTheme';
 import {
   chartsCustomizations,
@@ -26,12 +23,12 @@ const xThemeComponents = {
   ...treeViewCustomizations,
 };
 
-export default function Dashboard(props: { disableCustomTheme?: boolean }) {
+export default function Hospitalboard_ana(props) {
   return (
     <AppTheme {...props} themeComponents={xThemeComponents}>
       <CssBaseline enableColorScheme />
       <Box sx={{ display: 'flex' }}>
-        <SideMenu />
+        <SideMenu_hos />
         <AppNavbar />
         {/* Main content */}
         <Box

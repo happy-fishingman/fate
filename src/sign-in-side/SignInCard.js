@@ -21,9 +21,6 @@ import DialogContentText from '@mui/material/DialogContentText';
 
 import { styled } from '@mui/material/styles';
 
-// import ForgotPassword from './ForgotPassword';
-// import { GoogleIcon, FacebookIcon, SitemarkIcon } from './CustomIcons';
-
 const Card = styled(MuiCard)(({ theme }) => ({
   display: 'flex',
   flexDirection: 'column',
@@ -52,8 +49,8 @@ export default function SignInCard() {
   const [identityError, setIdentityError] = React.useState(false);
   const [identityErrorMessage, setIdentityErrorMessage] = React.useState('');
 
-  const [successDialogOpen, setSuccessDialogOpen] = React.useState(false); // 添加状态变量控制弹窗
-  const navigate = useNavigate(); // 使用useNavigate钩子用于页面跳转
+  const [successDialogOpen, setSuccessDialogOpen] = React.useState(false);
+  const navigate = useNavigate();
 
   const handleSuccessDialogClose = () => {
     setSuccessDialogOpen(false);
@@ -61,7 +58,11 @@ export default function SignInCard() {
 
   const handleSuccessDialogConfirm = () => {
     setSuccessDialogOpen(false);
-    navigate('/dashboard'); // 跳转到指定路由
+    if (identity === 'company') {
+      navigate('/dashboard'); // 如果选择了公司，跳转到 /dashboard
+    } else if (identity === 'hospital') {
+      navigate('/hospitalboard'); // 如果选择了医院，跳转到 /hospitalboard
+    }
   };
 
   const handleIdentityChange = (event) => {
@@ -129,7 +130,7 @@ export default function SignInCard() {
   return (
     <Card variant="outlined">
       <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
-        {/* <SitemarkIcon /> */}
+        {/* 这里可以添加您的Logo或其他元素 */}
       </Box>
       <Typography
         component="h1"
@@ -180,15 +181,6 @@ export default function SignInCard() {
         <FormControl>
           <Box sx={{ display: 'flex', justifyContent: 'space-between' }}>
             <FormLabel htmlFor="password">密码</FormLabel>
-            {/* <Link
-              component="button"
-              type="button"
-              onClick={handleClickOpen}
-              variant="body2"
-              sx={{ alignSelf: 'baseline' }}
-            >
-              Forgot your password?
-            </Link> */}
           </Box>
           <TextField
             error={passwordError}
@@ -208,7 +200,6 @@ export default function SignInCard() {
           control={<Checkbox value="remember" color="primary" />}
           label="记住我"
         />
-        {/* <ForgotPassword open={open} handleClose={handleClose} /> */}
         <Button type="submit" fullWidth variant="contained">
           登录
         </Button>

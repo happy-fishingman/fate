@@ -7,9 +7,9 @@ import Divider from '@mui/material/Divider';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 import SelectContent from './SelectContent';
-import MenuContent from './MenuContent';
-import CardAlert from './CardAlert';
-import OptionsMenu from './OptionsMenu';
+import MenuContent_hos from './MenuContent_hos2';
+import CardAlert_hos from './CardAlert_hos';
+// import OptionsMenu from './OptionsMenu';
 
 const drawerWidth = 240;
 
@@ -24,7 +24,7 @@ const Drawer = styled(MuiDrawer)({
   },
 });
 
-export default function SideMenu() {
+export default function SideMenu_hos() {
   return (
     <Drawer
       variant="permanent"
@@ -45,8 +45,8 @@ export default function SideMenu() {
         <SelectContent />
       </Box>
       <Divider />
-      <MenuContent />
-      <CardAlert />
+      <MenuContent_hos />
+      <CardAlert_hos />
       <Stack
         direction="row"
         sx={{
@@ -65,13 +65,10 @@ export default function SideMenu() {
         />
         <Box sx={{ mr: 'auto' }}>
           <Typography variant="body2" sx={{ fontWeight: 500, lineHeight: '16px' }}>
-            Riley Carter
-          </Typography>
-          <Typography variant="caption" sx={{ color: 'text.secondary' }}>
-            riley@email.com
+            Hospital
           </Typography>
         </Box>
-        <OptionsMenu />
+        {/* <OptionsMenu /> */}
       </Stack>
     </Drawer>
   );

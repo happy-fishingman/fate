@@ -15,21 +15,18 @@ import DialogTitle from '@mui/material/DialogTitle';
 import Alert from '@mui/material/Alert';
 import CircularProgress from '@mui/material/CircularProgress';
 
-export default function HighlightedCard3() {
+export default function HighlightedCard3_hos() {
   const theme = useTheme();
   const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
 
-  // 状态管理
+  // 添加状态
   const [open, setOpen] = useState(false);
   const [beneId, setBeneId] = useState('');
   const [result, setResult] = useState(null);
-  const [analysisResult, setAnalysisResult] = useState(null); // 新增状态，用于存储续保分析结果
   const [error, setError] = useState(null);
-  const [loading, setLoading] = useState(false); // 预测加载状态
-  const [analysisLoading, setAnalysisLoading] = useState(false); // 分析加载状态
-  
+  const [loading, setLoading] = useState(false); // Loading state
 
-  // 打开和关闭对话框
+  // 处理打开和关闭对话框
   const handleClickOpen = () => {
     setOpen(true);
   };
@@ -38,26 +35,26 @@ export default function HighlightedCard3() {
     setOpen(false);
     setBeneId('');
     setResult(null);
-    setAnalysisResult(null);
     setError(null);
-    setLoading(false);
-    setAnalysisLoading(false);
+    setLoading(false); // Reset loading state
   };
 
-  // 处理预测提交
+  // 处理表单提交
   const handleSubmit = async () => {
-    setLoading(true);
+    setLoading(true); // Start loading
     try {
-      const response = await fetch('http://localhost:3001/api/predict', {
+      const response = await fetch('http://localhost:3001/api/predict_hos', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+        },
         body: JSON.stringify({ beneId }),
       });
-
+  
       if (!response.ok) {
-        throw new Error('网络响应不正确');
+        throw new Error('Network response was not ok');
       }
-
+  
       const data = await response.json();
       setResult(data);
       setError(null);
@@ -65,32 +62,7 @@ export default function HighlightedCard3() {
       setError(err.message || '预测失败');
       setResult(null);
     } finally {
-      setLoading(false);
-    }
-  };
-
-  // 处理续保分析
-  const handleAnalysis = async () => {
-    setAnalysisLoading(true);
-    try {
-      const response = await fetch('http://localhost:3001/api/renewal-analysis', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ beneId,result }), // 将预测结果发送到后端
-      });
-
-      if (!response.ok) {
-        throw new Error('网络响应不正确');
-      }
-
-      const data = await response.json();
-      setAnalysisResult(data.analysis);
-      setError(null);
-    } catch (err) {
-      setError(err.message || '续保分析失败');
-      setAnalysisResult(null);
-    } finally {
-      setAnalysisLoading(false);
+      setLoading(false); // Stop loading
     }
   };
 
@@ -104,10 +76,10 @@ export default function HighlightedCard3() {
           gutterBottom
           sx={{ fontWeight: '600' }}
         >
-          保险定价预测
+          患者未来健康状况预测
         </Typography>
         <Typography sx={{ color: 'text.secondary', mb: '8px' }}>
-          点击按钮后，我们将根据您输入的用户ID，进行保险价格预测。
+          点击按钮后，我们将根据您输入的患者ID，进行患者未来健康状况预测。
         </Typography>
         <Button
           variant="contained"
@@ -115,18 +87,13 @@ export default function HighlightedCard3() {
           color="primary"
           endIcon={<ChevronRightRoundedIcon />}
           fullWidth={isSmallScreen}
-          onClick={handleClickOpen}
+          onClick={handleClickOpen} // 添加点击事件
         >
           预测
         </Button>
 
-        <Dialog
-          open={open}
-          onClose={handleClose}
-          fullWidth
-          maxWidth="sm"
-        >
-          <DialogTitle>输入用户ID进行预测</DialogTitle>
+        <Dialog open={open} onClose={handleClose}  fullWidth   maxWidth={false} PaperProps={{style: {width: '400px',},}}>
+          <DialogTitle>输入患者ID进行预测</DialogTitle>
           <DialogContent>
             <TextField
               autoFocus
@@ -140,31 +107,12 @@ export default function HighlightedCard3() {
               onChange={(e) => setBeneId(e.target.value)}
             />
 
+            
             {loading && <CircularProgress />}
             {error && <Alert severity="error">{error}</Alert>}
             {result && (
               <div>
-                <Typography variant="h6">医疗保险定价：{Number(result.pricing).toFixed(2)}</Typography>
-                <Typography variant="h6">潜在骗保风险：{Number(result.fraudRisk).toFixed(2)}</Typography>
-                <Typography variant="h6">未来健康状况预测：{result.statment}（{Number(result.future_health).toFixed(2)}）</Typography>
-                {/* 新增续保分析按钮 */}
-                <Button
-                  variant="contained"
-                  color="secondary"
-                  onClick={handleAnalysis}
-                  disabled={analysisLoading}
-                  sx={{ mt: 2 }}
-                >
-                  续保分析
-                </Button>
-
-                {/* 显示续保分析结果 */}
-                {analysisLoading && <CircularProgress />}
-                {analysisResult && (
-                  <Typography variant="body1" sx={{ mt: 2, whiteSpace: 'pre-line' }}>
-                    {analysisResult}
-                  </Typography>
-                )}
+                <Typography variant="h6">未来健康状况预测：{result.statment}（{Number(result.prediction).toFixed(2)}）</Typography>
               </div>
             )}
           </DialogContent>

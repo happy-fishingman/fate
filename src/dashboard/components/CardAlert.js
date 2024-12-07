@@ -5,7 +5,16 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import AutoAwesomeRoundedIcon from '@mui/icons-material/AutoAwesomeRounded';
 
+import { Link, useNavigate } from 'react-router-dom';
+
+
+
 export default function CardAlert() {
+  const navigate = useNavigate();
+
+  const handleSuccessDialogConfirm = () => {
+    navigate('/hospitalboard'); 
+  };
   return (
     <Card variant="outlined" sx={{ m: 1.5, p: 1.5 }}>
       <CardContent>
@@ -16,7 +25,7 @@ export default function CardAlert() {
         <Typography variant="body2" sx={{ mb: 2, color: 'text.secondary' }}>
           以游客身份体验本系统在医院的应用。
         </Typography>
-        <Button variant="contained" size="small" fullWidth>
+        <Button onClick={handleSuccessDialogConfirm} variant="contained" size="small" fullWidth>
           体验
         </Button>
       </CardContent>

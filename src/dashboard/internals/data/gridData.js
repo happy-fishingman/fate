@@ -186,6 +186,7 @@ export const columns = [
   { field: 'OPAnnualReimbursementAmt', headerName: 'OPAnnualReimbursementAmt', flex: 1, minWidth: 100 },
   { field: 'OPAnnualDeductibleAmt', headerName: 'OPAnnualDeductibleAmt', flex: 1, minWidth: 100 },
   { field: 'InsurancePrice', headerName: 'InsurancePrice', flex: 1, minWidth: 100 },
+  { field: 'PotentialFraud', headerName: 'PotentialFraud', flex: 1, minWidth: 100 },
 ];
 
 export const rows = [
@@ -201,7 +202,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 3204,
     OPAnnualReimbursementAmt: 60,
     OPAnnualDeductibleAmt: 70,
-    InsurancePrice: 383.04
+    InsurancePrice: 383.04,
+    PotentialFraud: 0.40
   },
   {
     id: 2,
@@ -215,7 +217,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 30,
     OPAnnualDeductibleAmt: 50,
-    InsurancePrice: 114.03
+    InsurancePrice: 114.03,
+    PotentialFraud: 0
   },
   {
     id: 3,
@@ -229,7 +232,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 90,
     OPAnnualDeductibleAmt: 40,
-    InsurancePrice: 144.13
+    InsurancePrice: 144.13,
+    PotentialFraud: 0
   },
   {
     id: 4,
@@ -243,7 +247,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 1810,
     OPAnnualDeductibleAmt: 760,
-    InsurancePrice: 244.34
+    InsurancePrice: 244.34,
+    PotentialFraud: 0
   },
   {
     id: 5,
@@ -257,7 +262,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 1790,
     OPAnnualDeductibleAmt: 1200,
-    InsurancePrice: 183.22
+    InsurancePrice: 183.22,
+    PotentialFraud: 0
   },
   {
     id: 6,
@@ -271,7 +277,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 500,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 76.38
+    InsurancePrice: 76.38,
+    PotentialFraud: 0
   },
   {
     id: 7,
@@ -285,7 +292,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 1490,
     OPAnnualDeductibleAmt: 160,
-    InsurancePrice: 182.68
+    InsurancePrice: 182.68,
+    PotentialFraud: 0
   },
   {
     id: 8,
@@ -299,7 +307,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 30,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 156.80
+    InsurancePrice: 156.80,
+    PotentialFraud: 0
   },
   {
     id: 9,
@@ -313,7 +322,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 100,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 180.18
+    InsurancePrice: 180.18,
+    PotentialFraud: 0
   },
   {
     id: 10,
@@ -327,7 +337,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 1170,
     OPAnnualDeductibleAmt: 660,
-    InsurancePrice: 184.53
+    InsurancePrice: 184.53,
+    PotentialFraud: 0
   },
   {
     id: 11,
@@ -341,7 +352,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 250,
     OPAnnualDeductibleAmt: 320,
-    InsurancePrice: 251.97
+    InsurancePrice: 251.97,
+    PotentialFraud: 0.40
   },
   {
     id: 12,
@@ -355,7 +367,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 2890,
     OPAnnualDeductibleAmt: 1740,
-    InsurancePrice: 293.24
+    InsurancePrice: 293.24,
+    PotentialFraud: 0.40
   },
   {
     id: 13,
@@ -369,7 +382,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 440,
     OPAnnualDeductibleAmt: 600,
-    InsurancePrice: 171.75
+    InsurancePrice: 171.75,
+    PotentialFraud: 0
   },
   {
     id: 14,
@@ -383,7 +397,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 2136,
     OPAnnualReimbursementAmt: 120,
     OPAnnualDeductibleAmt: 100,
-    InsurancePrice: 217.94
+    InsurancePrice: 217.94,
+    PotentialFraud: 0.40
   },
   {
     id: 15,
@@ -397,7 +412,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 60,
     OPAnnualDeductibleAmt: 30,
-    InsurancePrice: 125.48
+    InsurancePrice: 125.48,
+    PotentialFraud: 0
   },
   {
     id: 16,
@@ -411,7 +427,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 2320,
     OPAnnualDeductibleAmt: 1480,
-    InsurancePrice: 262.45
+    InsurancePrice: 262.45,
+    PotentialFraud: 0.40
   },
   {
     id: 17,
@@ -425,7 +442,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 2136,
     OPAnnualReimbursementAmt: 1400,
     OPAnnualDeductibleAmt: 840,
-    InsurancePrice: 336.78
+    InsurancePrice: 336.78,
+    PotentialFraud: 0.40
   },
   {
     id: 18,
@@ -439,7 +457,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 860,
     OPAnnualDeductibleAmt: 50,
-    InsurancePrice: 219.46
+    InsurancePrice: 219.46,
+    PotentialFraud: 0.40
   },
   {
     id: 19,
@@ -453,7 +472,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 780,
     OPAnnualDeductibleAmt: 290,
-    InsurancePrice: 226.75
+    InsurancePrice: 226.75,
+    PotentialFraud: 0
   },
   {
     id: 20,
@@ -467,7 +487,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 60,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 144.09
+    InsurancePrice: 144.09,
+    PotentialFraud: 0
   },
   {
     id: 21,
@@ -481,7 +502,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 520,
     OPAnnualDeductibleAmt: 150,
-    InsurancePrice: 256.33
+    InsurancePrice: 256.33,
+    PotentialFraud: 0
   },
   {
     id: 22,
@@ -495,7 +517,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 100,
     OPAnnualDeductibleAmt: 30,
-    InsurancePrice: 100.10
+    InsurancePrice: 100.10,
+    PotentialFraud: 0
   },
   {
     id: 23,
@@ -509,7 +532,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 370,
     OPAnnualDeductibleAmt: 90,
-    InsurancePrice: 171.63
+    InsurancePrice: 171.63,
+    PotentialFraud: 0
   },
   {
     id: 24,
@@ -523,7 +547,8 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 14590,
     OPAnnualDeductibleAmt: 3160,
-    InsurancePrice: 222.08
+    InsurancePrice: 222.08,
+    PotentialFraud: 0.40
   },
   {
     id: 25,
@@ -537,11 +562,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 40,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 171.07
+    InsurancePrice: 171.07,
+    PotentialFraud: 0
   },
   {
     id: 26,
-    BeneID: 11027,
+    BeneID: 11026,
     Age: 60,
     Gender: 2,
     Race: 1,
@@ -551,11 +577,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 40,
     OPAnnualDeductibleAmt: 10,
-    InsurancePrice: 114.05
+    InsurancePrice: 114.05,
+    PotentialFraud: 0
   },
   {
     id: 27,
-    BeneID: 11028,
+    BeneID: 11027,
     Age: 59,
     Gender: 1,
     Race: 1,
@@ -565,11 +592,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 0,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 208.35
+    InsurancePrice: 208.35,
+    PotentialFraud: 0.40
   },
   {
     id: 28,
-    BeneID: 11029,
+    BeneID: 11028,
     Age: 72,
     Gender: 1,
     Race: 5,
@@ -579,11 +607,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 820,
     OPAnnualDeductibleAmt: 320,
-    InsurancePrice: 257.09
+    InsurancePrice: 257.09,
+    PotentialFraud: 0
   },
   {
     id: 29,
-    BeneID: 11031,
+    BeneID: 11029,
     Age: 56,
     Gender: 2,
     Race: 1,
@@ -593,11 +622,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 2136,
     OPAnnualReimbursementAmt: 40,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 207.28
+    InsurancePrice: 207.28,
+    PotentialFraud: 0.40
   },
   {
     id: 30,
-    BeneID: 11032,
+    BeneID: 11030,
     Age: 63,
     Gender: 2,
     Race: 1,
@@ -607,11 +637,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 0,
     OPAnnualDeductibleAmt: 200,
-    InsurancePrice: 114
+    InsurancePrice: 114,
+    PotentialFraud: 0
   },
   {
     id: 31,
-    BeneID: 11033,
+    BeneID: 11031,
     Age: 88,
     Gender: 2,
     Race: 1,
@@ -621,11 +652,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 100,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 142.64
+    InsurancePrice: 142.64,
+    PotentialFraud: 0
   },
   {
     id: 32,
-    BeneID: 11034,
+    BeneID: 11032,
     Age: 54,
     Gender: 2,
     Race: 1,
@@ -635,11 +667,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 2136,
     OPAnnualReimbursementAmt: 1650,
     OPAnnualDeductibleAmt: 80,
-    InsurancePrice: 665.57
+    InsurancePrice: 665.57,
+    PotentialFraud: 0.40
   },
   {
     id: 33,
-    BeneID: 11036,
+    BeneID: 11033,
     Age: 35,
     Gender: 1,
     Race: 1,
@@ -649,11 +682,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 100,
     OPAnnualDeductibleAmt: 20,
-    InsurancePrice: 229.50
+    InsurancePrice: 229.50,
+    PotentialFraud: 0.40
   },
   {
     id: 34,
-    BeneID: 11037,
+    BeneID: 11034,
     Age: 60,
     Gender: 2,
     Race: 1,
@@ -663,11 +697,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 160,
     OPAnnualDeductibleAmt: 50,
-    InsurancePrice: 210.23
+    InsurancePrice: 210.23,
+    PotentialFraud: 0.40
   },
   {
     id: 35,
-    BeneID: 11038,
+    BeneID: 11035,
     Age: 63,
     Gender: 1,
     Race: 1,
@@ -677,11 +712,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 480,
     OPAnnualDeductibleAmt: 300,
-    InsurancePrice: 168.81
+    InsurancePrice: 168.81,
+    PotentialFraud: 0
   },
   {
     id: 36,
-    BeneID: 11039,
+    BeneID: 11036,
     Age: 81,
     Gender: 1,
     Race: 1,
@@ -691,11 +727,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 110,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 240.26
+    InsurancePrice: 240.26,
+    PotentialFraud: 0
   },
   {
     id: 37,
-    BeneID: 11040,
+    BeneID: 11037,
     Age: 41,
     Gender: 2,
     Race: 1,
@@ -705,11 +742,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 400,
     OPAnnualDeductibleAmt: 200,
-    InsurancePrice: 104.92
+    InsurancePrice: 104.92,
+    PotentialFraud: 0
   },
   {
     id: 38,
-    BeneID: 11041,
+    BeneID: 11038,
     Age: 78,
     Gender: 2,
     Race: 1,
@@ -719,11 +757,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 2136,
     OPAnnualReimbursementAmt: 620,
     OPAnnualDeductibleAmt: 370,
-    InsurancePrice: 395.30
+    InsurancePrice: 395.30,
+    PotentialFraud: 0.40
   },
   {
     id: 39,
-    BeneID: 11042,
+    BeneID: 11039,
     Age: 81,
     Gender: 2,
     Race: 1,
@@ -733,11 +772,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 120,
     OPAnnualDeductibleAmt: 30,
-    InsurancePrice: 156.94
+    InsurancePrice: 156.94,
+    PotentialFraud: 0
   },
   {
     id: 40,
-    BeneID: 11043,
+    BeneID: 11040,
     Age: 47,
     Gender: 2,
     Race: 1,
@@ -747,11 +787,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 720,
     OPAnnualDeductibleAmt: 60,
-    InsurancePrice: 153.09
+    InsurancePrice: 153.09,
+    PotentialFraud: 0
   },
   {
     id: 41,
-    BeneID: 11044,
+    BeneID: 11041,
     Age: 81,
     Gender: 2,
     Race: 1,
@@ -761,11 +802,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 400,
     OPAnnualDeductibleAmt: 300,
-    InsurancePrice: 157.38
+    InsurancePrice: 157.38,
+    PotentialFraud: 0
   },
   {
     id: 42,
-    BeneID: 11045,
+    BeneID: 11042,
     Age: 89,
     Gender: 2,
     Race: 1,
@@ -775,11 +817,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 2370,
     OPAnnualDeductibleAmt: 540,
-    InsurancePrice: 260.61
+    InsurancePrice: 260.61,
+    PotentialFraud: 0.40
   },
   {
     id: 43,
-    BeneID: 11046,
+    BeneID: 11043,
     Age: 73,
     Gender: 2,
     Race: 1,
@@ -789,11 +832,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 0,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 176.14
+    InsurancePrice: 176.14,
+    PotentialFraud: 0.40
   },
   {
     id: 44,
-    BeneID: 11047,
+    BeneID: 11044,
     Age: 78,
     Gender: 2,
     Race: 1,
@@ -803,11 +847,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 560,
     OPAnnualDeductibleAmt: 100,
-    InsurancePrice: 186.29
+    InsurancePrice: 186.29,
+    PotentialFraud: 0
   },
   {
     id: 45,
-    BeneID: 11048,
+    BeneID: 11045,
     Age: 62,
     Gender: 1,
     Race: 1,
@@ -817,11 +862,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 80,
     OPAnnualDeductibleAmt: 40,
-    InsurancePrice: 120.10
+    InsurancePrice: 120.10,
+    PotentialFraud: 0
   },
   {
     id: 46,
-    BeneID: 11049,
+    BeneID: 11046,
     Age: 37,
     Gender: 2,
     Race: 1,
@@ -831,11 +877,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 680,
     OPAnnualDeductibleAmt: 280,
-    InsurancePrice: 133.90
+    InsurancePrice: 133.90,
+    PotentialFraud: 0
   },
   {
     id: 47,
-    BeneID: 11050,
+    BeneID: 11047,
     Age: 68,
     Gender: 1,
     Race: 1,
@@ -845,11 +892,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 340,
     OPAnnualDeductibleAmt: 120,
-    InsurancePrice: 210.71
+    InsurancePrice: 210.71,
+    PotentialFraud: 0
   },
   {
     id: 48,
-    BeneID: 11051,
+    BeneID: 11048,
     Age: 57,
     Gender: 2,
     Race: 1,
@@ -859,11 +907,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 1000,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 115.14
+    InsurancePrice: 115.14,
+    PotentialFraud: 0
   },
   {
     id: 49,
-    BeneID: 11052,
+    BeneID: 11049,
     Age: 71,
     Gender: 2,
     Race: 1,
@@ -873,11 +922,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 70,
     OPAnnualDeductibleAmt: 40,
-    InsurancePrice: 156.86
+    InsurancePrice: 156.86,
+    PotentialFraud: 0
   },
   {
     id: 50,
-    BeneID: 11053,
+    BeneID: 11050,
     Age: 42,
     Gender: 2,
     Race: 1,
@@ -887,11 +937,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 800,
     OPAnnualDeductibleAmt: 140,
-    InsurancePrice: 153.22
+    InsurancePrice: 153.22,
+    PotentialFraud: 0
   },
   {
     id: 51,
-    BeneID: 11054,
+    BeneID: 11051,
     Age: 43,
     Gender: 2,
     Race: 1,
@@ -901,11 +952,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 400,
     OPAnnualDeductibleAmt: 100,
-    InsurancePrice: 212.44
+    InsurancePrice: 212.44,
+    PotentialFraud: 0.40
   },
   {
     id: 52,
-    BeneID: 11055,
+    BeneID: 11052,
     Age: 61,
     Gender: 2,
     Race: 1,
@@ -915,11 +967,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 2136,
     OPAnnualReimbursementAmt: 100,
     OPAnnualDeductibleAmt: 20,
-    InsurancePrice: 279.63
+    InsurancePrice: 279.63,
+    PotentialFraud: 0.40
   },
   {
     id: 53,
-    BeneID: 11056,
+    BeneID: 11053,
     Age: 69,
     Gender: 1,
     Race: 1,
@@ -929,11 +982,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 3800,
     OPAnnualDeductibleAmt: 680,
-    InsurancePrice: 186.84
+    InsurancePrice: 186.84,
+    PotentialFraud: 0.40
   },
   {
     id: 54,
-    BeneID: 11057,
+    BeneID: 11054,
     Age: 67,
     Gender: 2,
     Race: 1,
@@ -943,11 +997,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 2136,
     OPAnnualReimbursementAmt: 200,
     OPAnnualDeductibleAmt: 50,
-    InsurancePrice: 444.52
+    InsurancePrice: 444.52,
+    PotentialFraud: 0.40
   },
   {
     id: 55,
-    BeneID: 11058,
+    BeneID: 11055,
     Age: 63,
     Gender: 2,
     Race: 1,
@@ -957,11 +1012,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 160,
     OPAnnualDeductibleAmt: 530,
-    InsurancePrice: 194.11
+    InsurancePrice: 194.11,
+    PotentialFraud: 0
   },
   {
     id: 56,
-    BeneID: 11059,
+    BeneID: 11056,
     Age: 52,
     Gender: 1,
     Race: 1,
@@ -971,11 +1027,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 1210,
     OPAnnualDeductibleAmt: 290,
-    InsurancePrice: 133.60
+    InsurancePrice: 133.60,
+    PotentialFraud: 0
   },
   {
     id: 57,
-    BeneID: 11060,
+    BeneID: 11057,
     Age: 70,
     Gender: 1,
     Race: 1,
@@ -985,11 +1042,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 1290,
     OPAnnualDeductibleAmt: 1580,
-    InsurancePrice: 182.32
+    InsurancePrice: 182.32,
+    PotentialFraud: 0
   },
   {
     id: 58,
-    BeneID: 11061,
+    BeneID: 11058,
     Age: 69,
     Gender: 1,
     Race: 1,
@@ -999,11 +1057,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 820,
     OPAnnualDeductibleAmt: 230,
-    InsurancePrice: 181.48
+    InsurancePrice: 181.48,
+    PotentialFraud: 0
   },
   {
     id: 59,
-    BeneID: 11062,
+    BeneID: 11059,
     Age: 76,
     Gender: 2,
     Race: 1,
@@ -1013,11 +1072,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 110,
     OPAnnualDeductibleAmt: 140,
-    InsurancePrice: 156.92
+    InsurancePrice: 156.92,
+    PotentialFraud: 0
   },
   {
     id: 60,
-    BeneID: 11063,
+    BeneID: 11060,
     Age: 57,
     Gender: 1,
     Race: 1,
@@ -1027,11 +1087,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 60,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 156.09
+    InsurancePrice: 156.09,
+    PotentialFraud: 0
   },
   {
     id: 61,
-    BeneID: 11064,
+    BeneID: 11061,
     Age: 56,
     Gender: 2,
     Race: 1,
@@ -1041,11 +1102,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 90,
     OPAnnualDeductibleAmt: 20,
-    InsurancePrice: 114.10
+    InsurancePrice: 114.10,
+    PotentialFraud: 0
   },
   {
     id: 62,
-    BeneID: 11065,
+    BeneID: 11062,
     Age: 75,
     Gender: 1,
     Race: 1,
@@ -1055,11 +1117,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 300,
     OPAnnualDeductibleAmt: 1170,
-    InsurancePrice: 278.62
+    InsurancePrice: 278.62,
+    PotentialFraud: 0.40
   },
   {
     id: 63,
-    BeneID: 11066,
+    BeneID: 11063,
     Age: 64,
     Gender: 1,
     Race: 1,
@@ -1069,11 +1132,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 560,
     OPAnnualDeductibleAmt: 660,
-    InsurancePrice: 244.62
+    InsurancePrice: 244.62,
+    PotentialFraud: 0.40
   },
   {
     id: 64,
-    BeneID: 11067,
+    BeneID: 11064,
     Age: 36,
     Gender: 2,
     Race: 1,
@@ -1083,11 +1147,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 2150,
     OPAnnualDeductibleAmt: 570,
-    InsurancePrice: 169.42
+    InsurancePrice: 169.42,
+    PotentialFraud: 0.40
   },
   {
     id: 65,
-    BeneID: 11068,
+    BeneID: 11065,
     Age: 35,
     Gender: 2,
     Race: 1,
@@ -1097,11 +1162,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 20,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 123.52
+    InsurancePrice: 123.52,
+    PotentialFraud: 0
   },
   {
     id: 66,
-    BeneID: 11069,
+    BeneID: 11066,
     Age: 80,
     Gender: 2,
     Race: 1,
@@ -1111,11 +1177,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 2136,
     OPAnnualReimbursementAmt: 1570,
     OPAnnualDeductibleAmt: 170,
-    InsurancePrice: 260.20
+    InsurancePrice: 260.20,
+    PotentialFraud: 0.40
   },
   {
     id: 67,
-    BeneID: 11070,
+    BeneID: 11067,
     Age: 52,
     Gender: 1,
     Race: 1,
@@ -1125,11 +1192,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 900,
     OPAnnualDeductibleAmt: 210,
-    InsurancePrice: 133.19
+    InsurancePrice: 133.19,
+    PotentialFraud: 0
   },
   {
     id: 68,
-    BeneID: 11071,
+    BeneID: 11068,
     Age: 46,
     Gender: 1,
     Race: 2,
@@ -1139,11 +1207,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 2230,
     OPAnnualDeductibleAmt: 1720,
-    InsurancePrice: 180.15
+    InsurancePrice: 180.15,
+    PotentialFraud: 0.40
   },
   {
     id: 69,
-    BeneID: 11072,
+    BeneID: 11069,
     Age: 64,
     Gender: 2,
     Race: 3,
@@ -1153,11 +1222,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 4460,
     OPAnnualDeductibleAmt: 260,
-    InsurancePrice: 166.72
+    InsurancePrice: 166.72,
+    PotentialFraud: 0.40
   },
   {
     id: 70,
-    BeneID: 11073,
+    BeneID: 11070,
     Age: 69,
     Gender: 1,
     Race: 2,
@@ -1167,11 +1237,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 10,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 165.02
+    InsurancePrice: 165.02,
+    PotentialFraud: 0
   },
   {
     id: 71,
-    BeneID: 11074,
+    BeneID: 11071,
     Age: 67,
     Gender: 1,
     Race: 5,
@@ -1181,11 +1252,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 1470,
     OPAnnualDeductibleAmt: 1250,
-    InsurancePrice: 258.75
+    InsurancePrice: 258.75,
+    PotentialFraud: 0
   },
   {
     id: 72,
-    BeneID: 11075,
+    BeneID: 11072,
     Age: 75,
     Gender: 2,
     Race: 1,
@@ -1195,11 +1267,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 1180,
     OPAnnualDeductibleAmt: 870,
-    InsurancePrice: 173.02
+    InsurancePrice: 173.02,
+    PotentialFraud: 0
   },
   {
     id: 73,
-    BeneID: 11076,
+    BeneID: 11073,
     Age: 58,
     Gender: 2,
     Race: 1,
@@ -1209,11 +1282,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 50,
     OPAnnualDeductibleAmt: 20,
-    InsurancePrice: 114.06
+    InsurancePrice: 114.06,
+    PotentialFraud: 0
   },
   {
     id: 74,
-    BeneID: 11077,
+    BeneID: 11074,
     Age: 62,
     Gender: 2,
     Race: 5,
@@ -1223,11 +1297,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 3750,
     OPAnnualDeductibleAmt: 600,
-    InsurancePrice: 165.59
+    InsurancePrice: 165.59,
+    PotentialFraud: 0.40
   },
   {
     id: 75,
-    BeneID: 11078,
+    BeneID: 11075,
     Age: 71,
     Gender: 2,
     Race: 1,
@@ -1237,11 +1312,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 260,
     OPAnnualDeductibleAmt: 40,
-    InsurancePrice: 250.26
+    InsurancePrice: 250.26,
+    PotentialFraud: 0.40
   },
   {
     id: 76,
-    BeneID: 11079,
+    BeneID: 11076,
     Age: 58,
     Gender: 1,
     Race: 1,
@@ -1251,11 +1327,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 840,
     OPAnnualDeductibleAmt: 40,
-    InsurancePrice: 208.04
+    InsurancePrice: 208.04,
+    PotentialFraud: 0.40
   },
   {
     id: 77,
-    BeneID: 11080,
+    BeneID: 11077,
     Age: 37,
     Gender: 2,
     Race: 1,
@@ -1265,11 +1342,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 160,
     OPAnnualDeductibleAmt: 10,
-    InsurancePrice: 115.39
+    InsurancePrice: 115.39,
+    PotentialFraud: 0.40
   },
   {
     id: 78,
-    BeneID: 11081,
+    BeneID: 11078,
     Age: 67,
     Gender: 1,
     Race: 1,
@@ -1279,11 +1357,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 0,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 250.49
+    InsurancePrice: 250.49,
+    PotentialFraud: 0.40
   },
   {
     id: 79,
-    BeneID: 11082,
+    BeneID: 11079,
     Age: 60,
     Gender: 2,
     Race: 1,
@@ -1293,11 +1372,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 0,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 186.01
+    InsurancePrice: 186.01,
+    PotentialFraud: 0.40
   },
   {
     id: 80,
-    BeneID: 11083,
+    BeneID: 11080,
     Age: 68,
     Gender: 2,
     Race: 1,
@@ -1307,11 +1387,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 400,
     OPAnnualDeductibleAmt: 10,
-    InsurancePrice: 143.07
+    InsurancePrice: 143.07,
+    PotentialFraud: 0
   },
   {
     id: 81,
-    BeneID: 11084,
+    BeneID: 11081,
     Age: 72,
     Gender: 1,
     Race: 1,
@@ -1321,11 +1402,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 1090,
     OPAnnualDeductibleAmt: 1340,
-    InsurancePrice: 212.29
+    InsurancePrice: 212.29,
+    PotentialFraud: 0
   },
   {
     id: 82,
-    BeneID: 11085,
+    BeneID: 11082,
     Age: 37,
     Gender: 2,
     Race: 1,
@@ -1335,11 +1417,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 1670,
     OPAnnualDeductibleAmt: 520,
-    InsurancePrice: 217.81
+    InsurancePrice: 217.81,
+    PotentialFraud: 0.40
   },
   {
     id: 83,
-    BeneID: 11086,
+    BeneID: 11083,
     Age: 61,
     Gender: 1,
     Race: 1,
@@ -1349,11 +1432,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 50,
     OPAnnualDeductibleAmt: 60,
-    InsurancePrice: 120.06
+    InsurancePrice: 120.06,
+    PotentialFraud: 0
   },
   {
     id: 84,
-    BeneID: 11087,
+    BeneID: 11084,
     Age: 73,
     Gender: 2,
     Race: 1,
@@ -1363,11 +1447,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 850,
     OPAnnualDeductibleAmt: 100,
-    InsurancePrice: 186.82
+    InsurancePrice: 186.82,
+    PotentialFraud: 0
   },
   {
     id: 85,
-    BeneID: 11088,
+    BeneID: 11085,
     Age: 63,
     Gender: 2,
     Race: 1,
@@ -1377,11 +1462,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 1730,
     OPAnnualDeductibleAmt: 280,
-    InsurancePrice: 197.15
+    InsurancePrice: 197.15,
+    PotentialFraud: 0
   },
   {
     id: 86,
-    BeneID: 11089,
+    BeneID: 11086,
     Age: 74,
     Gender: 2,
     Race: 3,
@@ -1391,11 +1477,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 480,
     OPAnnualDeductibleAmt: 620,
-    InsurancePrice: 243.41
+    InsurancePrice: 243.41,
+    PotentialFraud: 0
   },
   {
     id: 87,
-    BeneID: 11090,
+    BeneID: 11087,
     Age: 64,
     Gender: 2,
     Race: 1,
@@ -1405,11 +1492,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 300,
     OPAnnualDeductibleAmt: 40,
-    InsurancePrice: 161.67
+    InsurancePrice: 161.67,
+    PotentialFraud: 0
   },
   {
     id: 88,
-    BeneID: 11092,
+    BeneID: 11088,
     Age: 57,
     Gender: 1,
     Race: 1,
@@ -1419,11 +1507,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 0,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 120
+    InsurancePrice: 120,
+    PotentialFraud: 0
   },
   {
     id: 89,
-    BeneID: 11093,
+    BeneID: 11089,
     Age: 78,
     Gender: 2,
     Race: 1,
@@ -1433,11 +1522,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 33210,
     OPAnnualDeductibleAmt: 5858,
-    InsurancePrice: 490.50
+    InsurancePrice: 490.50,
+    PotentialFraud: 0.40
   },
   {
     id: 90,
-    BeneID: 11094,
+    BeneID: 11090,
     Age: 89,
     Gender: 2,
     Race: 1,
@@ -1447,11 +1537,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 9280,
     OPAnnualDeductibleAmt: 1670,
-    InsurancePrice: 171.30
+    InsurancePrice: 171.30,
+    PotentialFraud: 0.40
   },
   {
     id: 91,
-    BeneID: 11095,
+    BeneID: 11091,
     Age: 75,
     Gender: 2,
     Race: 1,
@@ -1461,11 +1552,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 430,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 186.05
+    InsurancePrice: 186.05,
+    PotentialFraud: 0
   },
   {
     id: 92,
-    BeneID: 11096,
+    BeneID: 11092,
     Age: 72,
     Gender: 2,
     Race: 1,
@@ -1475,11 +1567,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 380,
     OPAnnualDeductibleAmt: 40,
-    InsurancePrice: 143.04
+    InsurancePrice: 143.04,
+    PotentialFraud: 0
   },
   {
     id: 93,
-    BeneID: 11097,
+    BeneID: 11093,
     Age: 59,
     Gender: 1,
     Race: 1,
@@ -1489,11 +1582,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 30,
     OPAnnualDeductibleAmt: 300,
-    InsurancePrice: 180.05
+    InsurancePrice: 180.05,
+    PotentialFraud: 0
   },
   {
     id: 94,
-    BeneID: 11098,
+    BeneID: 11094,
     Age: 75,
     Gender: 1,
     Race: 1,
@@ -1503,11 +1597,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 2136,
     OPAnnualReimbursementAmt: 30,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 344.61
+    InsurancePrice: 344.61,
+    PotentialFraud: 0.40
   },
   {
     id: 95,
-    BeneID: 11099,
+    BeneID: 11095,
     Age: 69,
     Gender: 2,
     Race: 1,
@@ -1517,11 +1612,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 1068,
     OPAnnualReimbursementAmt: 1190,
     OPAnnualDeductibleAmt: 430,
-    InsurancePrice: 178.42
+    InsurancePrice: 178.42,
+    PotentialFraud: 0.40
   },
   {
     id: 96,
-    BeneID: 11101,
+    BeneID: 11096,
     Age: 66,
     Gender: 1,
     Race: 3,
@@ -1531,11 +1627,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 2136,
     OPAnnualReimbursementAmt: 3220,
     OPAnnualDeductibleAmt: 730,
-    InsurancePrice: 313.09
+    InsurancePrice: 313.09,
+    PotentialFraud: 0.40
   },
   {
     id: 97,
-    BeneID: 11102,
+    BeneID: 11097,
     Age: 71,
     Gender: 1,
     Race: 1,
@@ -1545,11 +1642,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 1850,
     OPAnnualDeductibleAmt: 530,
-    InsurancePrice: 229.16
+    InsurancePrice: 229.16,
+    PotentialFraud: 0
   },
   {
     id: 98,
-    BeneID: 11103,
+    BeneID: 11098,
     Age: 57,
     Gender: 1,
     Race: 1,
@@ -1559,11 +1657,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 40,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 144.06
+    InsurancePrice: 144.06,
+    PotentialFraud: 0
   },
   {
     id: 99,
-    BeneID: 11104,
+    BeneID: 11099,
     Age: 69,
     Gender: 2,
     Race: 1,
@@ -1573,11 +1672,12 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 200,
     OPAnnualDeductibleAmt: 0,
-    InsurancePrice: 171.34
+    InsurancePrice: 171.34,
+    PotentialFraud: 0
   },
   {
     id: 100,
-    BeneID: 11105,
+    BeneID: 11100,
     Age: 38,
     Gender: 1,
     Race: 1,
@@ -1587,6 +1687,7 @@ export const rows = [
     IPAnnualDeductibleAmt: 0,
     OPAnnualReimbursementAmt: 560,
     OPAnnualDeductibleAmt: 1340,
-    InsurancePrice: 140.78
+    InsurancePrice: 140.78,
+    PotentialFraud: 0
   },
 ];
