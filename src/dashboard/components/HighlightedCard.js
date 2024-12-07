@@ -46,7 +46,7 @@ export default function HighlightedCard() {
         setLoading(false);
         console.error('Error:', error);
         alert('训练失败，请检查后台日志。');
-        alert(error);
+        // alert(error);
       });
   };
 
@@ -70,6 +70,7 @@ export default function HighlightedCard() {
         <Typography sx={{ color: 'text.secondary', mb: '8px' }}>
           点击按钮后，我们将根据您上传的训练数据和医院提供的就诊信息，开始模型训练。
         </Typography>
+        {/* <TextField id="outlined-basic" label="Outlined" variant="outlined" /> */}
         <Button
           variant="contained"
           size="small"

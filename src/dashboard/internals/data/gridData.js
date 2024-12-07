@@ -154,7 +154,7 @@ export const rows = [
     InsurancePrice: 383.04
   },
   {
-    id: 4,
+    id: 2,
     BeneID: 11002,
     Age: 64,
     Gender: 2,
@@ -168,7 +168,7 @@ export const rows = [
     InsurancePrice: 114.03
   },
   {
-    id: 5,
+    id: 3,
     BeneID: 11003,
     Age: 64,
     Gender: 1,
@@ -182,7 +182,7 @@ export const rows = [
     InsurancePrice: 144.13
   },
   {
-    id: 6,
+    id: 4,
     BeneID: 11004,
     Age: 78,
     Gender: 1,
@@ -196,7 +196,7 @@ export const rows = [
     InsurancePrice: 244.34
   },
   {
-    id: 7,
+    id: 5,
     BeneID: 11005,
     Age: 65,
     Gender: 1,
@@ -210,7 +210,7 @@ export const rows = [
     InsurancePrice: 183.22
   },
   {
-    id: 8,
+    id: 6,
     BeneID: 11006,
     Age: 24,
     Gender: 2,
@@ -224,7 +224,7 @@ export const rows = [
     InsurancePrice: 76.38
   },
   {
-    id: 9,
+    id: 7,
     BeneID: 11007,
     Age: 60,
     Gender: 1,
@@ -238,7 +238,7 @@ export const rows = [
     InsurancePrice: 182.68
   },
   {
-    id: 10,
+    id: 8,
     BeneID: 11008,
     Age: 66,
     Gender: 2,
@@ -252,7 +252,7 @@ export const rows = [
     InsurancePrice: 156.80
   },
   {
-    id: 11,
+    id: 9,
     BeneID: 11009,
     Age: 71,
     Gender: 1,
@@ -266,7 +266,7 @@ export const rows = [
     InsurancePrice: 180.18
   },
   {
-    id: 12,
+    id: 10,
     BeneID: 11010,
     Age: 64,
     Gender: 2,
@@ -280,7 +280,7 @@ export const rows = [
     InsurancePrice: 184.53
   },
   {
-    id: 13,
+    id: 11,
     BeneID: 11011,
     Age: 86,
     Gender: 2,
@@ -294,7 +294,7 @@ export const rows = [
     InsurancePrice: 251.97
   },
   {
-    id: 14,
+    id: 12,
     BeneID: 11012,
     Age: 66,
     Gender: 1,
@@ -308,7 +308,7 @@ export const rows = [
     InsurancePrice: 293.24
   },
   {
-    id: 15,
+    id: 13,
     BeneID: 11013,
     Age: 73,
     Gender: 2,
@@ -322,7 +322,7 @@ export const rows = [
     InsurancePrice: 171.75
   },
   {
-    id: 16,
+    id: 14,
     BeneID: 11014,
     Age: 62,
     Gender: 2,
@@ -336,7 +336,7 @@ export const rows = [
     InsurancePrice: 217.94
   },
   {
-    id: 17,
+    id: 15,
     BeneID: 11015,
     Age: 64,
     Gender: 2,
@@ -350,7 +350,7 @@ export const rows = [
     InsurancePrice: 125.48
   },
   {
-    id: 18,
+    id: 16,
     BeneID: 11016,
     Age: 81,
     Gender: 2,
@@ -364,7 +364,7 @@ export const rows = [
     InsurancePrice: 262.45
   },
   {
-    id: 19,
+    id: 17,
     BeneID: 11017,
     Age: 60,
     Gender: 2,
@@ -378,7 +378,7 @@ export const rows = [
     InsurancePrice: 336.78
   },
   {
-    id: 20,
+    id: 18,
     BeneID: 11018,
     Age: 61,
     Gender: 1,
@@ -392,7 +392,7 @@ export const rows = [
     InsurancePrice: 219.46
   },
   {
-    id: 21,
+    id: 19,
     BeneID: 11019,
     Age: 76,
     Gender: 1,
@@ -406,7 +406,7 @@ export const rows = [
     InsurancePrice: 226.75
   },
   {
-    id: 22,
+    id: 20,
     BeneID: 11020,
     Age: 61,
     Gender: 1,
@@ -420,7 +420,7 @@ export const rows = [
     InsurancePrice: 144.09
   },
   {
-    id: 23,
+    id: 21,
     BeneID: 11021,
     Age: 73,
     Gender: 1,
@@ -434,7 +434,7 @@ export const rows = [
     InsurancePrice: 256.33
   },
   {
-    id: 24,
+    id: 22,
     BeneID: 11022,
     Age: 42,
     Gender: 1,
@@ -448,7 +448,7 @@ export const rows = [
     InsurancePrice: 100.10
   },
   {
-    id: 25,
+    id: 23,
     BeneID: 11023,
     Age: 69,
     Gender: 2,
@@ -462,7 +462,7 @@ export const rows = [
     InsurancePrice: 171.63
   },
   {
-    id: 26,
+    id: 24,
     BeneID: 11024,
     Age: 58,
     Gender: 2,
@@ -476,7 +476,7 @@ export const rows = [
     InsurancePrice: 222.08
   },
   {
-    id: 27,
+    id: 25,
     BeneID: 11025,
     Age: 62,
     Gender: 2,
@@ -490,7 +490,7 @@ export const rows = [
     InsurancePrice: 171.07
   },
   {
-    id: 28,
+    id: 26,
     BeneID: 11027,
     Age: 60,
     Gender: 2,
@@ -504,7 +504,7 @@ export const rows = [
     InsurancePrice: 114.05
   },
   {
-    id: 29,
+    id: 27,
     BeneID: 11028,
     Age: 59,
     Gender: 1,
@@ -518,7 +518,7 @@ export const rows = [
     InsurancePrice: 208.35
   },
   {
-    id: 30,
+    id: 28,
     BeneID: 11029,
     Age: 72,
     Gender: 1,
@@ -532,7 +532,7 @@ export const rows = [
     InsurancePrice: 257.09
   },
   {
-    id: 31,
+    id: 29,
     BeneID: 11031,
     Age: 56,
     Gender: 2,
@@ -546,7 +546,7 @@ export const rows = [
     InsurancePrice: 207.28
   },
   {
-    id: 32,
+    id: 30,
     BeneID: 11032,
     Age: 63,
     Gender: 2,
@@ -560,7 +560,7 @@ export const rows = [
     InsurancePrice: 114
   },
   {
-    id: 33,
+    id: 31,
     BeneID: 11033,
     Age: 88,
     Gender: 2,
@@ -574,7 +574,7 @@ export const rows = [
     InsurancePrice: 142.64
   },
   {
-    id: 34,
+    id: 32,
     BeneID: 11034,
     Age: 54,
     Gender: 2,
@@ -588,21 +588,7 @@ export const rows = [
     InsurancePrice: 665.57
   },
   {
-    id: 35,
-    BeneID: 11034,
-    Age: 54,
-    Gender: 2,
-    Race: 1,
-    State: 34,
-    County: 760,
-    IPAnnualReimbursementAmt: 131140,
-    IPAnnualDeductibleAmt: 2136,
-    OPAnnualReimbursementAmt: 1650,
-    OPAnnualDeductibleAmt: 80,
-    InsurancePrice: 665.57
-  },
-  {
-    id: 36,
+    id: 33,
     BeneID: 11036,
     Age: 35,
     Gender: 1,
@@ -616,7 +602,7 @@ export const rows = [
     InsurancePrice: 229.50
   },
   {
-    id: 37,
+    id: 34,
     BeneID: 11037,
     Age: 60,
     Gender: 2,
@@ -630,7 +616,7 @@ export const rows = [
     InsurancePrice: 210.23
   },
   {
-    id: 38,
+    id: 35,
     BeneID: 11038,
     Age: 63,
     Gender: 1,
@@ -644,7 +630,7 @@ export const rows = [
     InsurancePrice: 168.81
   },
   {
-    id: 39,
+    id: 36,
     BeneID: 11039,
     Age: 81,
     Gender: 1,
@@ -658,7 +644,7 @@ export const rows = [
     InsurancePrice: 240.26
   },
   {
-    id: 40,
+    id: 37,
     BeneID: 11040,
     Age: 41,
     Gender: 2,
@@ -672,7 +658,7 @@ export const rows = [
     InsurancePrice: 104.92
   },
   {
-    id: 41,
+    id: 38,
     BeneID: 11041,
     Age: 78,
     Gender: 2,
@@ -686,21 +672,7 @@ export const rows = [
     InsurancePrice: 395.30
   },
   {
-    id: 42,
-    BeneID: 11041,
-    Age: 78,
-    Gender: 2,
-    Race: 1,
-    State: 10,
-    County: 150,
-    IPAnnualReimbursementAmt: 23000,
-    IPAnnualDeductibleAmt: 2136,
-    OPAnnualReimbursementAmt: 620,
-    OPAnnualDeductibleAmt: 370,
-    InsurancePrice: 395.30
-  },
-  {
-    id: 43,
+    id: 39,
     BeneID: 11042,
     Age: 81,
     Gender: 2,
@@ -714,7 +686,7 @@ export const rows = [
     InsurancePrice: 156.94
   },
   {
-    id: 44,
+    id: 40,
     BeneID: 11043,
     Age: 47,
     Gender: 2,
@@ -728,7 +700,7 @@ export const rows = [
     InsurancePrice: 153.09
   },
   {
-    id: 45,
+    id: 41,
     BeneID: 11044,
     Age: 81,
     Gender: 2,
@@ -742,7 +714,7 @@ export const rows = [
     InsurancePrice: 157.38
   },
   {
-    id: 46,
+    id: 42,
     BeneID: 11045,
     Age: 89,
     Gender: 2,
@@ -756,7 +728,7 @@ export const rows = [
     InsurancePrice: 260.61
   },
   {
-    id: 47,
+    id: 43,
     BeneID: 11046,
     Age: 73,
     Gender: 2,
@@ -770,7 +742,7 @@ export const rows = [
     InsurancePrice: 176.14
   },
   {
-    id: 48,
+    id: 44,
     BeneID: 11047,
     Age: 78,
     Gender: 2,
@@ -784,7 +756,7 @@ export const rows = [
     InsurancePrice: 186.29
   },
   {
-    id: 49,
+    id: 45,
     BeneID: 11048,
     Age: 62,
     Gender: 1,
@@ -798,7 +770,7 @@ export const rows = [
     InsurancePrice: 120.10
   },
   {
-    id: 50,
+    id: 46,
     BeneID: 11049,
     Age: 37,
     Gender: 2,
@@ -812,7 +784,7 @@ export const rows = [
     InsurancePrice: 133.90
   },
   {
-    id: 51,
+    id: 47,
     BeneID: 11050,
     Age: 68,
     Gender: 1,
@@ -826,7 +798,7 @@ export const rows = [
     InsurancePrice: 210.71
   },
   {
-    id: 52,
+    id: 48,
     BeneID: 11051,
     Age: 57,
     Gender: 2,
@@ -840,7 +812,7 @@ export const rows = [
     InsurancePrice: 115.14
   },
   {
-    id: 53,
+    id: 49,
     BeneID: 11052,
     Age: 71,
     Gender: 2,
@@ -854,7 +826,7 @@ export const rows = [
     InsurancePrice: 156.86
   },
   {
-    id: 54,
+    id: 50,
     BeneID: 11053,
     Age: 42,
     Gender: 2,
@@ -868,7 +840,7 @@ export const rows = [
     InsurancePrice: 153.22
   },
   {
-    id: 55,
+    id: 51,
     BeneID: 11054,
     Age: 43,
     Gender: 2,
@@ -882,7 +854,7 @@ export const rows = [
     InsurancePrice: 212.44
   },
   {
-    id: 56,
+    id: 52,
     BeneID: 11055,
     Age: 61,
     Gender: 2,
@@ -896,21 +868,7 @@ export const rows = [
     InsurancePrice: 279.63
   },
   {
-    id: 57,
-    BeneID: 11055,
-    Age: 61,
-    Gender: 2,
-    Race: 1,
-    State: 29,
-    County: 10,
-    IPAnnualReimbursementAmt: 16040,
-    IPAnnualDeductibleAmt: 2136,
-    OPAnnualReimbursementAmt: 100,
-    OPAnnualDeductibleAmt: 20,
-    InsurancePrice: 279.63
-  },
-  {
-    id: 58,
+    id: 53,
     BeneID: 11056,
     Age: 69,
     Gender: 1,
@@ -924,7 +882,7 @@ export const rows = [
     InsurancePrice: 186.84
   },
   {
-    id: 59,
+    id: 54,
     BeneID: 11057,
     Age: 67,
     Gender: 2,
@@ -938,35 +896,7 @@ export const rows = [
     InsurancePrice: 444.52
   },
   {
-    id: 60,
-    BeneID: 11057,
-    Age: 67,
-    Gender: 2,
-    Race: 1,
-    State: 5,
-    County: 570,
-    IPAnnualReimbursementAmt: 41080,
-    IPAnnualDeductibleAmt: 2136,
-    OPAnnualReimbursementAmt: 200,
-    OPAnnualDeductibleAmt: 50,
-    InsurancePrice: 370.44
-  },
-  {
-    id: 61,
-    BeneID: 11057,
-    Age: 67,
-    Gender: 2,
-    Race: 1,
-    State: 5,
-    County: 570,
-    IPAnnualReimbursementAmt: 41080,
-    IPAnnualDeductibleAmt: 2136,
-    OPAnnualReimbursementAmt: 200,
-    OPAnnualDeductibleAmt: 50,
-    InsurancePrice: 370.44
-  },
-  {
-    id: 62,
+    id: 55,
     BeneID: 11058,
     Age: 63,
     Gender: 2,
@@ -980,7 +910,7 @@ export const rows = [
     InsurancePrice: 194.11
   },
   {
-    id: 63,
+    id: 56,
     BeneID: 11059,
     Age: 52,
     Gender: 1,
@@ -994,7 +924,7 @@ export const rows = [
     InsurancePrice: 133.60
   },
   {
-    id: 64,
+    id: 57,
     BeneID: 11060,
     Age: 70,
     Gender: 1,
@@ -1008,7 +938,7 @@ export const rows = [
     InsurancePrice: 182.32
   },
   {
-    id: 65,
+    id: 58,
     BeneID: 11061,
     Age: 69,
     Gender: 1,
@@ -1022,7 +952,7 @@ export const rows = [
     InsurancePrice: 181.48
   },
   {
-    id: 66,
+    id: 59,
     BeneID: 11062,
     Age: 76,
     Gender: 2,
@@ -1036,7 +966,7 @@ export const rows = [
     InsurancePrice: 156.92
   },
   {
-    id: 67,
+    id: 60,
     BeneID: 11063,
     Age: 57,
     Gender: 1,
@@ -1050,7 +980,7 @@ export const rows = [
     InsurancePrice: 156.09
   },
   {
-    id: 68,
+    id: 61,
     BeneID: 11064,
     Age: 56,
     Gender: 2,
@@ -1064,7 +994,7 @@ export const rows = [
     InsurancePrice: 114.10
   },
   {
-    id: 69,
+    id: 62,
     BeneID: 11065,
     Age: 75,
     Gender: 1,
@@ -1078,7 +1008,7 @@ export const rows = [
     InsurancePrice: 278.62
   },
   {
-    id: 70,
+    id: 63,
     BeneID: 11066,
     Age: 64,
     Gender: 1,
@@ -1092,7 +1022,7 @@ export const rows = [
     InsurancePrice: 244.62
   },
   {
-    id: 71,
+    id: 64,
     BeneID: 11067,
     Age: 36,
     Gender: 2,
@@ -1106,7 +1036,7 @@ export const rows = [
     InsurancePrice: 169.42
   },
   {
-    id: 72,
+    id: 65,
     BeneID: 11068,
     Age: 35,
     Gender: 2,
@@ -1120,7 +1050,7 @@ export const rows = [
     InsurancePrice: 123.52
   },
   {
-    id: 73,
+    id: 66,
     BeneID: 11069,
     Age: 80,
     Gender: 2,
@@ -1134,21 +1064,7 @@ export const rows = [
     InsurancePrice: 260.20
   },
   {
-    id: 74,
-    BeneID: 11069,
-    Age: 80,
-    Gender: 2,
-    Race: 1,
-    State: 26,
-    County: 470,
-    IPAnnualReimbursementAmt: 17000,
-    IPAnnualDeductibleAmt: 2136,
-    OPAnnualReimbursementAmt: 1570,
-    OPAnnualDeductibleAmt: 170,
-    InsurancePrice: 260.20
-  },
-  {
-    id: 75,
+    id: 67,
     BeneID: 11070,
     Age: 52,
     Gender: 1,
@@ -1162,7 +1078,7 @@ export const rows = [
     InsurancePrice: 133.19
   },
   {
-    id: 76,
+    id: 68,
     BeneID: 11071,
     Age: 46,
     Gender: 1,
@@ -1176,7 +1092,7 @@ export const rows = [
     InsurancePrice: 180.15
   },
   {
-    id: 77,
+    id: 69,
     BeneID: 11072,
     Age: 64,
     Gender: 2,
@@ -1190,7 +1106,7 @@ export const rows = [
     InsurancePrice: 166.72
   },
   {
-    id: 78,
+    id: 70,
     BeneID: 11073,
     Age: 69,
     Gender: 1,
@@ -1204,7 +1120,7 @@ export const rows = [
     InsurancePrice: 165.02
   },
   {
-    id: 79,
+    id: 71,
     BeneID: 11074,
     Age: 67,
     Gender: 1,
@@ -1218,7 +1134,7 @@ export const rows = [
     InsurancePrice: 258.75
   },
   {
-    id: 80,
+    id: 72,
     BeneID: 11075,
     Age: 75,
     Gender: 2,
@@ -1232,7 +1148,7 @@ export const rows = [
     InsurancePrice: 173.02
   },
   {
-    id: 81,
+    id: 73,
     BeneID: 11076,
     Age: 58,
     Gender: 2,
@@ -1246,7 +1162,7 @@ export const rows = [
     InsurancePrice: 114.06
   },
   {
-    id: 82,
+    id: 74,
     BeneID: 11077,
     Age: 62,
     Gender: 2,
@@ -1260,7 +1176,7 @@ export const rows = [
     InsurancePrice: 165.59
   },
   {
-    id: 83,
+    id: 75,
     BeneID: 11078,
     Age: 71,
     Gender: 2,
@@ -1274,7 +1190,7 @@ export const rows = [
     InsurancePrice: 250.26
   },
   {
-    id: 84,
+    id: 76,
     BeneID: 11079,
     Age: 58,
     Gender: 1,
@@ -1288,7 +1204,7 @@ export const rows = [
     InsurancePrice: 208.04
   },
   {
-    id: 85,
+    id: 77,
     BeneID: 11080,
     Age: 37,
     Gender: 2,
@@ -1302,7 +1218,7 @@ export const rows = [
     InsurancePrice: 115.39
   },
   {
-    id: 86,
+    id: 78,
     BeneID: 11081,
     Age: 67,
     Gender: 1,
@@ -1316,7 +1232,7 @@ export const rows = [
     InsurancePrice: 250.49
   },
   {
-    id: 87,
+    id: 79,
     BeneID: 11082,
     Age: 60,
     Gender: 2,
@@ -1330,7 +1246,7 @@ export const rows = [
     InsurancePrice: 186.01
   },
   {
-    id: 88,
+    id: 80,
     BeneID: 11083,
     Age: 68,
     Gender: 2,
@@ -1344,7 +1260,7 @@ export const rows = [
     InsurancePrice: 143.07
   },
   {
-    id: 89,
+    id: 81,
     BeneID: 11084,
     Age: 72,
     Gender: 1,
@@ -1358,7 +1274,7 @@ export const rows = [
     InsurancePrice: 212.29
   },
   {
-    id: 90,
+    id: 82,
     BeneID: 11085,
     Age: 37,
     Gender: 2,
@@ -1372,7 +1288,7 @@ export const rows = [
     InsurancePrice: 217.81
   },
   {
-    id: 91,
+    id: 83,
     BeneID: 11086,
     Age: 61,
     Gender: 1,
@@ -1386,7 +1302,7 @@ export const rows = [
     InsurancePrice: 120.06
   },
   {
-    id: 92,
+    id: 84,
     BeneID: 11087,
     Age: 73,
     Gender: 2,
@@ -1400,7 +1316,7 @@ export const rows = [
     InsurancePrice: 186.82
   },
   {
-    id: 93,
+    id: 85,
     BeneID: 11088,
     Age: 63,
     Gender: 2,
@@ -1414,7 +1330,7 @@ export const rows = [
     InsurancePrice: 197.15
   },
   {
-    id: 94,
+    id: 86,
     BeneID: 11089,
     Age: 74,
     Gender: 2,
@@ -1428,7 +1344,7 @@ export const rows = [
     InsurancePrice: 243.41
   },
   {
-    id: 95,
+    id: 87,
     BeneID: 11090,
     Age: 64,
     Gender: 2,
@@ -1442,7 +1358,7 @@ export const rows = [
     InsurancePrice: 161.67
   },
   {
-    id: 96,
+    id: 88,
     BeneID: 11092,
     Age: 57,
     Gender: 1,
@@ -1456,7 +1372,7 @@ export const rows = [
     InsurancePrice: 120
   },
   {
-    id: 97,
+    id: 89,
     BeneID: 11093,
     Age: 78,
     Gender: 2,
@@ -1470,21 +1386,7 @@ export const rows = [
     InsurancePrice: 490.50
   },
   {
-    id: 98,
-    BeneID: 11093,
-    Age: 78,
-    Gender: 2,
-    Race: 1,
-    State: 6,
-    County: 500,
-    IPAnnualReimbursementAmt: 20180,
-    IPAnnualDeductibleAmt: 1068,
-    OPAnnualReimbursementAmt: 33210,
-    OPAnnualDeductibleAmt: 5858,
-    InsurancePrice: 490.50
-  },
-  {
-    id: 99,
+    id: 90,
     BeneID: 11094,
     Age: 89,
     Gender: 2,
@@ -1498,7 +1400,7 @@ export const rows = [
     InsurancePrice: 171.30
   },
   {
-    id: 100,
+    id: 91,
     BeneID: 11095,
     Age: 75,
     Gender: 2,
@@ -1510,5 +1412,131 @@ export const rows = [
     OPAnnualReimbursementAmt: 430,
     OPAnnualDeductibleAmt: 0,
     InsurancePrice: 186.05
+  },
+  {
+    id: 92,
+    BeneID: 11096,
+    Age: 72,
+    Gender: 2,
+    Race: 1,
+    State: 7,
+    County: 10,
+    IPAnnualReimbursementAmt: 0,
+    IPAnnualDeductibleAmt: 0,
+    OPAnnualReimbursementAmt: 380,
+    OPAnnualDeductibleAmt: 40,
+    InsurancePrice: 143.04
+  },
+  {
+    id: 93,
+    BeneID: 11097,
+    Age: 59,
+    Gender: 1,
+    Race: 1,
+    State: 10,
+    County: 500,
+    IPAnnualReimbursementAmt: 0,
+    IPAnnualDeductibleAmt: 0,
+    OPAnnualReimbursementAmt: 30,
+    OPAnnualDeductibleAmt: 300,
+    InsurancePrice: 180.05
+  },
+  {
+    id: 94,
+    BeneID: 11098,
+    Age: 75,
+    Gender: 1,
+    Race: 1,
+    State: 5,
+    County: 470,
+    IPAnnualReimbursementAmt: 16000,
+    IPAnnualDeductibleAmt: 2136,
+    OPAnnualReimbursementAmt: 30,
+    OPAnnualDeductibleAmt: 0,
+    InsurancePrice: 344.61
+  },
+  {
+    id: 95,
+    BeneID: 11099,
+    Age: 69,
+    Gender: 2,
+    Race: 1,
+    State: 18,
+    County: 550,
+    IPAnnualReimbursementAmt: 3150,
+    IPAnnualDeductibleAmt: 1068,
+    OPAnnualReimbursementAmt: 1190,
+    OPAnnualDeductibleAmt: 430,
+    InsurancePrice: 178.42
+  },
+  {
+    id: 96,
+    BeneID: 11101,
+    Age: 66,
+    Gender: 1,
+    Race: 3,
+    State: 3,
+    County: 60,
+    IPAnnualReimbursementAmt: 8400,
+    IPAnnualDeductibleAmt: 2136,
+    OPAnnualReimbursementAmt: 3220,
+    OPAnnualDeductibleAmt: 730,
+    InsurancePrice: 313.09
+  },
+  {
+    id: 97,
+    BeneID: 11102,
+    Age: 71,
+    Gender: 1,
+    Race: 1,
+    State: 3,
+    County: 10,
+    IPAnnualReimbursementAmt: 0,
+    IPAnnualDeductibleAmt: 0,
+    OPAnnualReimbursementAmt: 1850,
+    OPAnnualDeductibleAmt: 530,
+    InsurancePrice: 229.16
+  },
+  {
+    id: 98,
+    BeneID: 11103,
+    Age: 57,
+    Gender: 1,
+    Race: 1,
+    State: 45,
+    County: 390,
+    IPAnnualReimbursementAmt: 0,
+    IPAnnualDeductibleAmt: 0,
+    OPAnnualReimbursementAmt: 40,
+    OPAnnualDeductibleAmt: 0,
+    InsurancePrice: 144.06
+  },
+  {
+    id: 99,
+    BeneID: 11104,
+    Age: 69,
+    Gender: 2,
+    Race: 1,
+    State: 10,
+    County: 280,
+    IPAnnualReimbursementAmt: 0,
+    IPAnnualDeductibleAmt: 0,
+    OPAnnualReimbursementAmt: 200,
+    OPAnnualDeductibleAmt: 0,
+    InsurancePrice: 171.34
+  },
+  {
+    id: 100,
+    BeneID: 11105,
+    Age: 38,
+    Gender: 1,
+    Race: 1,
+    State: 19,
+    County: 360,
+    IPAnnualReimbursementAmt: 0,
+    IPAnnualDeductibleAmt: 0,
+    OPAnnualReimbursementAmt: 560,
+    OPAnnualDeductibleAmt: 1340,
+    InsurancePrice: 140.78
   },
 ];

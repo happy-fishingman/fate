@@ -12,12 +12,12 @@ root.render(
     <Router>
       <Routes>
         {/* 登录页面路由 */}
-        <Route path="/signin" element={<SignInSide />} />
+        <Route path="/" element={<SignInSide />} />
 
         {/* 注册页面路由 */}
         <Route path="/signup" element={<SignUp />} />
 
-        <Route path="/" element={<DashBoard />} />
+        <Route path="/dashboard" element={<DashBoard />} />
 
       </Routes>
     </Router>

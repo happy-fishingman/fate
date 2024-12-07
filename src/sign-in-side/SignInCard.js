@@ -61,7 +61,7 @@ export default function SignInCard() {
 
   const handleSuccessDialogConfirm = () => {
     setSuccessDialogOpen(false);
-    navigate('/fateboard'); // 跳转到指定路由
+    navigate('/dashboard'); // 跳转到指定路由
   };
 
   const handleIdentityChange = (event) => {

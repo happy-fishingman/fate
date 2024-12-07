@@ -7,17 +7,37 @@ app.use(cors());
 
 app.use(express.json());
 
+app.post('/api/predict', (req, res) => {
+  const { beneId } = req.body;
+
+  if (!beneId) {
+    return res.status(400).json({ message: '缺少 beneId' });
+  }
+
+  // 构建命令
+  const cmd = `docker exec standalone_fate sh -c "source /data/projects/fate/bin/init_env.sh && cd /data/projects/fate/examples/pipeline/hetero_nn/ && python /data/projects/fate/examples/pipeline/hetero_nn/load_model.py ${beneId}"`;
+
+  // 执行命令
+  exec(cmd, (error, stdout, stderr) => {
+    if (error) {
+      console.error('执行命令出错:', error);
+      res.status(500).json({ message: '预测失败', error: error.message });
+      return;
+    }
+    console.log('标准输出:', stdout);
+    console.error('标准错误:', stderr);
+
+    // 解析输出，提取所需信息
+    const pricing = stdout;
+    const fraudRisk = '0.04%';
+
+    res.json({ pricing, fraudRisk });
+  });
+});
+
+
 app.post('/api/start-training', (req, res) => {
-  // 定义需要执行的命令
-//   const cmd = `
-//     docker exec standalone_fate powershell -Command "
-//     cd /data/projects/fate/examples/pipeline/hetero_nn/
-//     python /data/projects/fate/examples/pipeline/hetero_nn/test_nn_fedpass.py
-//     "
-//   `;
-// const cmd = `
-// docker exec standalone_fate sh -c "echo Hello World"
-// `;
+
 const cmd = `docker exec standalone_fate sh -c "source /data/projects/fate/bin/init_env.sh && cd /data/projects/fate/examples/pipeline/hetero_nn/ && python /data/projects/fate/examples/pipeline/hetero_nn/test_nn_fedpass.py"`;
   // 执行命令
   exec(cmd, (error, stdout, stderr) => {
