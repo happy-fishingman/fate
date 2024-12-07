@@ -186,17 +186,6 @@ export const columns = [
   { field: 'OPAnnualReimbursementAmt', headerName: 'OPAnnualReimbursementAmt', flex: 1, minWidth: 100 },
   { field: 'OPAnnualDeductibleAmt', headerName: 'OPAnnualDeductibleAmt', flex: 1, minWidth: 100 },
   { field: 'InsurancePrice', headerName: 'InsurancePrice', flex: 1, minWidth: 100 },
-  { field: 'BeneID', headerName: 'BeneID', flex: 1, minWidth: 100 },
-  { field: 'Age', headerName: 'Age', flex: 1, minWidth: 100 },
-  { field: 'Gender', headerName: 'Gender', flex: 1, minWidth: 100 },
-  { field: 'Race', headerName: 'Race', flex: 1, minWidth: 100 },
-  { field: 'State', headerName: 'State', flex: 1, minWidth: 100 },
-  { field: 'County', headerName: 'County', flex: 1, minWidth: 100 },
-  { field: 'IPAnnualReimbursementAmt', headerName: 'IPAnnualReimbursementAmt', flex: 1, minWidth: 100 },
-  { field: 'IPAnnualDeductibleAmt', headerName: 'IPAnnualDeductibleAmt', flex: 1, minWidth: 100 },
-  { field: 'OPAnnualReimbursementAmt', headerName: 'OPAnnualReimbursementAmt', flex: 1, minWidth: 100 },
-  { field: 'OPAnnualDeductibleAmt', headerName: 'OPAnnualDeductibleAmt', flex: 1, minWidth: 100 },
-  { field: 'InsurancePrice', headerName: 'InsurancePrice', flex: 1, minWidth: 100 },
 ];
 
 export const rows = [
