@@ -31,3 +31,6 @@ npm install
 ```bash
 npm start
 ```
+## FATE 环境
+
+FATE 环境使用官方 Docker，相关代码在 `fate_code` 文件夹下。
